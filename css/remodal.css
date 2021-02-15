@@ -190,7 +190,11 @@ html.remodal-is-locked {
   border: none;
   outline: none;
 }
-
+@media (max-width:768px) {
+  .remodal-close {
+    right: -5px;
+  }
+}
 .remodal-close:hover,
 .remodal-close:focus {
   color: #fff;
