@@ -1312,6 +1312,9 @@ input {
         padding: 30px 25px;
         max-width: 400px;
      }
+     @media (max-width:768px) { 
+         padding: 25px 13px;
+     }
     p {
         font-weight: 500;
         font-size: 16px;
