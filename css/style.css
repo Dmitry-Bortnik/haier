@@ -1491,6 +1491,52 @@ input {
   display: table;
   margin-top: 36px;
   padding: 22px 35px;
+  cursor: pointer;
+}
+
+.bg-content form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 700px;
+  width: 100%;
+  margin-top: 70px;
+}
+
+@media (max-width: 768px) {
+  .bg-content form {
+    margin-top: 40px;
+    display: block;
+  }
+}
+
+.bg-content form input {
+  max-width: 311px;
+  width: 100%;
+  margin-right: 17px;
+  padding: 0px 16px;
+  font-size: 16px;
+  border: none;
+  height: 49px;
+}
+
+@media (max-width: 768px) {
+  .bg-content form input {
+    margin-bottom: 15px;
+    max-width: 320px;
+  }
+}
+
+.bg-content form .btn {
+  margin-top: 0px;
+  padding: 15px 37px;
+}
+
+@media (max-width: 768px) {
+  .bg-content form .btn {
+    width: 100%;
+    max-width: 320px;
+  }
 }
 
 .obj__list {
