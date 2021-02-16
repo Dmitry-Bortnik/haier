@@ -622,6 +622,16 @@ nav li a.active:after, nav li a:hover:after {
   }
 }
 
+@media (max-width: 768px) {
+  .section-contacts.section-contacts__inner .contacts__list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .section-contacts.section-contacts__inner .contacts__list .contacts__item {
+    width: 100%;
+  }
+}
+
 .section-contacts.section-contacts__inner .contacts__list div {
   font-size: 18px;
   line-height: 28px;

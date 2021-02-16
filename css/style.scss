@@ -453,6 +453,12 @@ nav {
                     width: 50%;
                 }
             }
+            @media (max-width:768px) {
+                flex-wrap: wrap;
+                .contacts__item {
+                    width: 100%;
+                }
+            }
         }
         .contacts__list div {
             font-size: 18px;
